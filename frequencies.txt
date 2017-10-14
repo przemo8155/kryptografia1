@@ -1,4 +1,115 @@
+ymjlbrpfdsxwnltskfwejlqixqtrdspqqacbcaawlijttcwnilzieixzbfrsnheivwupsephvwlogjcracuzbtxfwbcvzbrrzfwgxqqegxmgopxveophzfdgxkybrrieipaiucrpvzphslrnxvweixlqvdsprvdgpsqehovrcspbfugxkvsmlqvnbtecawrgzsiginixstzwhhkzjxsvfcstaeixqweixbijpkpezewaqnolrqnskdlcuwjqeavomanboxizxoecawrmeixzbfrsnardsphvnbturtnovrcstvzactacipaiuctymjthszrztyitybcqvphsxfrsplbopjrvsbtxiapjbfovognilimqeihctixdltixqqvztamqyunbnoctzqawnjplrghrdtbqjpkpezewaqnolrqrnbtbvghrwfdinkyacpkvnbtlrwtyezaknbvmnzbfcarqrlunkzewdbvghewgcacitiighvdliinitakzttzqvrsplpwixmbnrrpsaklith
+
+Metoda Friedmana: 
+Dla przesuniecia i = 1 zanotowano 12 koincydencji.
+Dla przesuniecia i = 2 zanotowano 20 koincydencji.
+Dla przesuniecia i = 3 zanotowano 19 koincydencji.
+Dla przesuniecia i = 4 zanotowano 18 koincydencji.
+Dla przesuniecia i = 5 zanotowano 34 koincydencji.
+Dla przesuniecia i = 6 zanotowano 12 koincydencji.
+Dla przesuniecia i = 7 zanotowano 21 koincydencji.
+Dla przesuniecia i = 8 zanotowano 17 koincydencji.
+Dla przesuniecia i = 9 zanotowano 25 koincydencji.
+Dla przesuniecia i = 10 zanotowano 33 koincydencji.
+Dla przesuniecia i = 11 zanotowano 16 koincydencji.
+Dla przesuniecia i = 12 zanotowano 22 koincydencji.
+Dla przesuniecia i = 13 zanotowano 21 koincydencji.
+Dla przesuniecia i = 14 zanotowano 25 koincydencji.
+Dla przesuniecia i = 15 zanotowano 38 koincydencji.
+Dla przesuniecia i = 16 zanotowano 18 koincydencji.
+Dla przesuniecia i = 17 zanotowano 22 koincydencji.
+Dla przesuniecia i = 18 zanotowano 17 koincydencji.
+Dla przesuniecia i = 19 zanotowano 16 koincydencji.
+Dla przesuniecia i = 20 zanotowano 34 koincydencji.
+Dla przesuniecia i = 21 zanotowano 27 koincydencji.
+
+Zauwazamy, ze dla wielokrotnosci 5 (5,10,15,20) jest najwiecej koincydencji
+Wynika z tego ze klucz ma dlugosc rowna 5!
+
 Wszystko podane w czestosciach
+Iteracja nr: 0
+a 46	a 100	****************		
+		**********************************
+
+b 48	b 15	****************		
+		*****
+
+c 43	c 37	***************		
+		*************
+
+d 22	d 34	********		
+		************
+
+e 43	e 90	***************		
+		******************************
+
+f 24	f 1	********		
+		*
+
+g 28	g 15	**********		
+		*****
+
+h 29	h 12	**********		
+		****
+
+i 67	i 88	***********************		
+		******************************
+
+j 22	j 27	********		
+		*********
+
+k 24	k 35	********		
+		************
+
+l 39	l 37	*************		
+		*************
+
+m 18	m 31	******		
+		***********
+
+n 46	n 55	****************		
+		*******************
+
+o 26	o 79	*********		
+		***************************
+
+p 50	p 25	*****************		
+		*********
+
+q 44	q 0	***************		
+		
+
+r 61	r 38	*********************		
+		*************
+
+s 44	s 55	***************		
+		*******************
+
+t 56	t 39	*******************		
+		*************
+
+u 16	u 22	******		
+		********
+
+v 48	v 0	****************		
+		
+
+w 41	w 46	**************		
+		****************
+
+x 43	x 0	***************		
+		
+
+y 14	y 43	*****		
+		***************
+
+z 44	z 65	***************		
+		**********************
+
+Roznica srednia: 22.73076923076923
+Roznica maksymalna: 54
+
+
 Iteracja nr: 1
 a 46	z 65	****************		
 		**********************
@@ -1995,3 +2106,69 @@ Roznica srednia minimalna: 20.884615384615383
 Indeks: 4
 Roznica pojedyncza maksymalna: 50
 Indeks: 19
+
+Teraz policze najczesciej pojawiajace sie slowa co najmniej 3 literowe:
+eix 5
+vnb 3
+ixq 3
+frs 3
+nbt 4
+dsp 3
+zbf 3
+zew 3
+vnbt 3
+
+Kandydaci na litery 5-literowego klucza: 
+Iteracja nr 0, Iteracja nr. 8, Iteracja nr. 15, Iteracja nr. 17, Iteracja nr. 19
+Jesli chodzi o iteracje nr. 0 to tekst bedzie zaczynal sie od slowa na Y, wiec prawdopodobnie odpada
+Jesli chodzi o iteracje nr. 8 to tekst bedzie zaczynal sie od slowa na Q, wiec prawdopodobnie odpada
+Jesli chodzi o iteracje nr. 15 to tekst bedzie zaczynal sie od slowa na J
+Jesli chodzi o iteracje nr. 17 to tekst bedzie zaczynal sie od slowa na H
+Jesli chodzi o iteracje nr. 19 to tekst bedzie zaczynal sie od slowa na F
+
+Mamy 3 kandydatow na pierwsza litere hasla
+
+Jesli chodzi o druga litere tekstu mamy zaszyfrowana M
+Jesli chodzi o iteracje nr. 0 to tekst bedzie mial druga litere na M. JM, HM, FM nie ma takich slow. Odrzucamy
+Jesli chodzi o iteracje nr. 8 to tekst bedzie mial druga litere na E. JE, HE, FE istnieja poczatki slow. Dobry kandydat na druga litere hasla
+Jesli chodzi o iteracje nr. 15 to tekst bedzie mial druga litere na X. JX, HX, FX nie ma takich slow. Odrzucamy
+Jesli chodzi o iteracje nr. 17 to tekst bedzie mial druga litere na V. JV, HV, FV nie ma takich slow. Odrzucamy
+Jesli chodzi o iteracje nr. 19 to tekst bedzie mial druga litere na T. JT, HT, FT nie ma takich slow. Odrzucamy
+
+Stad wiemy ze iteracja nr 8 bedzie druga litera hasla. Jest to litera I
+Popatrzmy na kandydatow na 1 litere hasla: 15 (P), 17 (R), 19 (T). Obecnie haslo moze sie zaczynac od tych liter
+
+Jesli chodzi o trzecia litere tekstu mamy zaszyfrowane J
+Jesli chodzi o iteracje nr. 0 to tekst bedzie mial trzecia litere na J. JEJ, HEJ, FEJ istnieja poczatki slow procz FEJ
+Jesli chodzi o iteracje nr. 15 to tekst bedzie mial trzecia litere na U. JEU, HEU, FEU nie istnieja poczatki slow. Odrzucamy
+Jesli chodzi o iteracje nr. 17 to tekst bedzie mial trzecia litere na S. JES, HES, FES istnieja poczatki slow
+Jesli chodzi o iteracje nr. 19 to tekst bedzie mial trzecia litere na Q. JEQ, HEQ, FEQ nie istnieja poczatki slow. Odrzucamy
+
+Jesli chodzi o czwarta litere tekstu mamy zaszyfrowane L
+Jesli chodzi o iteracje nr. 0 to tekst bedzie mial czwarta litere na L. JEJL, HEJL, JESL, FESL, HESL istnieja JESL (jesli)
+Jesli chodzi o iteracje nr. 15 to tekst bedzie mial czwarta litere na W. JEJW, HEJW, JESW, FESW, HESW odrzucamy
+Jesli chodzi o iteracje nr. 17 to tekst bedzie mial czwarta litere na U. JEJU, HEJU, JESU, FESU, HESU wszystkie sa okej. Dobry kandydat
+Jesli chodzi o iteracje nr. 19 to tekst bedzie mial czwarta litere na T. JEJT, HEJT, JEST, FEST, HEST niektore sa okej
+
+Jesli chodzi o piata litere tekstu mamy zaszyfrowane B
+Jesli chodzi o iteracje nr. 0 to tekst bedzie mial piata litere na B. JESLB, HEJTB, FESTB, HESTB, FESUB, HEJUB, JEJUB nic nie jest ok 
+Jesli chodzi o iteracje nr. 15 to tekst bedzie mial piata litere na M. JESLM, HEJTM, FESTM, HESTM, FESUM, HEJUM, JEJUM nic nie jest ok 
+Jesli chodzi o iteracje nr. 17 to tekst bedzie mial piata litere na K. JESLK, HEJTK, FESTK, HESTK, FESUK, HEJUK, JEJUM nic nie jest ok 
+Jesli chodzi o iteracje nr. 19 to tekst bedzie mial piata litere na I. JESLI, HEJTI, FESTI, HESTI, FESUI, HEJUI, JEJUI. Slowo JESLI jest jedynym ktore jest poprawne. To jest jedyna sluszna droga
+
+Droga dedukcji musimy uzyskac slowo JESLI.
+Naszym haslem bedzie wtedy PIRAT. Udalo nam sie odgadnac 5-literowe, polskie haslo
+
+Teraz przetlumaczmy tekst
+
+JESLICHODZIOWLADCOWLUDZIEBLADZAIZAJMUJADWASTANOWISKANIEKTORZYZNICHMYSLAZEWSZYSCYLUDZIEPOWINNIBYCROWNIIZENIEPOWINNOWSRODNICHBYCANIWLADCYANIPODDANEGONIEWIEDZAJEDNAKZEOZNACZATOUNICESTWIENIEWLADCYISPRAWIEDLIWOSCIJEDNOCZESNIEBONIEMASPRAWIEDLIWOSCIWSRODLUDUINACZEJNIZPRZEZWLADCENIEKTORZYSADZAZENIEMATUZNACZENIAJESLIWLADCAJESTODRAZAJACYINIEPODPORZADKOWUJESIEPRAWUTOOCZYWISTEZEPSUCIEODCIEBIEZALEZYBYTWOJERZADYBYLYRZADAMISPRAWIEDLIWOSCIANIETEGOCOODPYCHAJACENIEDAWAJWIARYTEMUKTOCHCIALBYCIEDOTEGOPOPCHNACIPRZEDSTAWIALCITAKIERZADYWPIEKNYCHBARWACH
+
+A teraz napiszmy go po polsku: 
+
+Jeśli chodzi o władców ludzie błądzą i zajmują dwa stanowiska.
+Niektórzy z nich myślą, że wszyscy ludzie powinni być równi i że nie powinno być wsród nich być ani władcy ani poddanego.
+Nie wiedzą jednak, że oznacza to unicestwienie władcy i sprawiedliwości jednocześnie, bo nie ma sprawiedligości wsród ludu inaczej niż przez władcę.
+Niektórzy sądzą, że nie ma tu znaczenia, jeśli władca jest odrażający i nie podporządkowuje się prawu.
+To oczywiste zepsucie. Od ciebie zależy, by twoje rządy były rządami sprawiedliwości, a nie od tego, co odpychające
+Nie dawaj wiary temu, kto chciałby cię do tego popchnąć i przedstawiał ci takie rządy w pięknych barwach
+
